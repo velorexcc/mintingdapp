@@ -1,0 +1,100 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "SF Pro Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/61d4ac902d5e554c7b7b9e5d.61d4ac9209db46373e8d9b14.UDx8Qe6.rcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+button {
+transition-duration: 0.4s;
+cursor: pointer;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: auto;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: linear-gradient(97.13deg, rgba(255, 255, 255, 0.46) 0%, rgba(255, 255, 255, 0.31) 65.1%, rgba(255, 255, 255, 0.08) 96.35%);
+border: 3.5px solid rgba(255, 255, 255, 1);
+box-sizing: border-box;
+border-radius: 138px;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: auto;
+  text-align: center;
+  color: #2054ff;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(97.13deg, rgba(134, 255, 239, 0.46) 0%, rgba(132, 255, 255, 0.31) 65.1%, rgba(135, 255, 255, 0.08) 96.35%);
+  border: 3.5px solid rgb(0, 17, 255);
+  box-sizing: border-box;
+  border-radius: 138px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  button:active {
+    transition-duration: 0.8s;
+    cursor: pointer;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: auto;
+    text-align: center;
+    color: #20ff3e;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(97.13deg, rgba(127, 255, 123, 0.46) 0%, rgba(132, 255, 132, 0.31) 65.1%, rgba(135, 255, 145, 0.08) 96.35%);
+    border: 3.5px solid rgb(0, 255, 21);
+    box-sizing: border-box;
+    border-radius: 138px;
+    }
+
+  

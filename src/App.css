@@ -1,0 +1,110 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "SF Pro Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/61d4ac902d5e554c7b7b9e5d.61d4ac9209db46373e8d9b14.UDx8Qe6.rcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+body {
+  background-image: url("./images/ATM-render-1.png");
+  background-position: right;
+  overflow: hidden;
+  background-size: cover;
+  height: 100vh;
+}
+.button1 {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  height: 80px;
+  background: linear-gradient(97.13deg, rgba(255, 255, 255, 0.46) 0%, rgba(255, 255, 255, 0.31) 65.1%, rgba(255, 255, 255, 0.08) 96.35%);
+  border: 0px solid rgba(255, 255, 255, 0.3);
+  border-radius: 200px;
+}
+
+.button2 {
+  position: relative;
+  width: 300px;
+  margin-top: 50px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto; 
+  background: linear-gradient(97.13deg, rgba(255, 255, 255, 0.46) 0%, rgba(255, 255, 255, 0.31) 65.1%, rgba(255, 255, 255, 0.08) 96.35%);
+  border: 0px solid rgba(255, 255, 255, 0.3);
+  border-radius: 138px;
+}
+
+.lottie {
+  margin-top: 30px;
+}
+
+.appText {
+  margin-top: 50px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  max-height: 600px;
+  padding: 20px;
+}
+
+.connectedWallet {
+  max-width: fit-content;
+  position: absolute;
+  bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 138px;
+}
+
+.refresh {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 35px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+}
