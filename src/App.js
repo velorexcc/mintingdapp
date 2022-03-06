@@ -8,7 +8,7 @@ import animationData from './lotties/coin.json';
 //********
 //Internal 
 //********
-const velorexMembersClubNFTAddress = "0x165A62C4AEd1f461C902718Dcf20eC15CD2FA8EC"
+const velorexMembersClubNFTAddress = "0x65054e0320c0610AFBC09d5053722a2b8714d181"
 
 function App() {
 // Connecting to Blockchain
